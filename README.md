@@ -1,6 +1,11 @@
 # mass-storageclass-migrate
 Scripts for mass-migration of storageclasses in kubernetes
 
+## Requires
+kubectl
+jq
+pv-migrate
+
 ## Why this?
 I'm lazy. But I also often test out new storage types in my cluster or I just re-ingeneer the whole thing.
 
